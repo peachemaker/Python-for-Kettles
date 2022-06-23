@@ -20,11 +20,11 @@ def add_label1():
                              ' "/" — деление чисел.\n'
                              ' "**" — возведение числа в степень.\n\n'
                              '                                            УПРОЩЕНИЕ НЕКОТОРЫХ ОПЕРАЦИЙ\n\n'
-                             ' а = а + b  →  a+=b\n'
+                             ' а = а + b  →  a += b\n'
                              ' а = а - ь  →  а -= Ь\n'
                              ' а = а * ь  →  а *= b\n'
                              ' а = а / ь  →  а /= b\n'
-                             ' а = а * * 2 →  а ** = 2',
+                             ' а = а ** 2 →  а **= 2',
                    width=98, height=32, anchor='nw', justify='left', font=('Arial Unicode MS',8,'bold'))
     label1.place(x=252, y=100)
 def add_label2():
